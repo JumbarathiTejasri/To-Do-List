@@ -1,0 +1,72 @@
+.navbar {
+    background-color: #2c3e50;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h2 {
+    color: white;
+    margin: 0;
+  }
+  
+  .nav-link {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: white;
+    background-color: #3498db;
+  }
+
+  /* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    padding: 15px 20px;
+    color: white;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Link Styling */
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  /* Hover Effect */
+  .nav-link:hover {
+    transform: translateY(-2px); /* Slightly moves up */
+  }
+  
+  /* Active Link */
+  .active {
+    font-weight: bold;
+    border-bottom: 2px solid white; /* Underline active link */
+  }
+  
+  
